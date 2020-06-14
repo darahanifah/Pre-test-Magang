@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+      
+    <title> Cyber Security Executive - Trusted Cyber Security Reading Room </title>
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <div class="logo" style="float: left">
+                <a class="navbar-brand" href="home.html">
+                    <div id="logo"><img src="images/logo.png" width="150px"></div>
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="VDP.html">Vulnerability Disclosure Program</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Bug Bounty Program</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">CyberArmy Academy</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Program</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="publication.html">Publication</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tentang.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Bahasa Indonesia(ID)</a>
+                      <a class="dropdown-item" href="#">English(EN)</a>
+                    </div>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+<style>
+    body {
+        background-image: url("images/1.jpg");
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        font-size: 40px;
+        color: white;
+        margin-top: 100px;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        color: white;
+    }
+
+    .col-md-5 {
+        height: 100vh;
+        width: 100vw;
+        margin-top: 130px;
+        color: rgb(194, 194, 194);
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .col-md-5 .textbox {
+        position: relative;
+    }
+
+    .col-md-5 .textbox input {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid white;
+        outline: none;
+        background-color: transparent;
+        color: inherit;
+    }
+
+    .col-md-5 .textbox label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        font-size: 15px;
+        pointer-events: none;
+        transition: .5s;
+    }
+
+    .col-md-5 .textbox input:focus ~ label,
+    .col-md-5 .textbox input:valid ~ label {
+        top: -18px;
+        left: 0;
+        color: white;
+        font-size: 13px;
+    }
+</style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="text-left">Cyber Security Executive</h1>
+                <p class="text-left">Publikasi spesial dari CyberArmyID yang berisikan informasi mengenai statistik kerentanan, tren serangan, artikel rekomendasi terhadap kerentanan hingga tips yang dapat dilakukan dalam rangka pengamanan informasi dan siber.</p>         
+            </div>
+
+            <div class="col-md-5">
+                <form action="#" method="post">
+                    <div class="textbox">
+                        <input type="text" name="nama" value="" required="">
+                        <label>Nama</label>
+                    </div>
+
+                    <div class="textbox">
+                        <input type="email" name="email" value="" required="">
+                        <label>Email</label>
+                    </div>
+
+                    <div class="textbox">
+                        <input type="text" name="pekerjaan" value="" required="">
+                        <label>Pekerjaan</label>
+                    </div>
+
+                    <div class="textbox">
+                        <input type="text" name="jabatan" value="" required="">
+                        <label>Jabatan</label>
+                    </div>
+
+                    <div class="textbox">
+                        <input type="text" name="perusahaan" value="" required="">
+                        <label>Perusahaan</label>
+                    </div>
+
+                    <button class="btn btn-light btn-sm" style="width: 100%; color: rgb(0, 0, 78)21, 21, 121);">Download</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+.dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: #130457;
+      min-width: 160px;
+      z-index: 1;
+}
+
+.dropdown-menu a{
+      color: #fff;
+      padding: 8px 10px;
+      text-decoration: none;
+      display: block;
+}
+
+.dropdown-menu a:hover{
+      background-color: rgb(92, 145, 243);
+}
+
+.dropdown:hover .dropdown-menu{display: block;}
+
+.carousel-item{
+      height: 100vh;
+      min-height: 300px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      background-size: cover;
+}
+
+.carousel-caption{
+      position: absolute;
+      right: 15%;
+      bottom: 270px;
+      left: 15%;
+      z-index: 10;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #fff;
+}
+
+.carousel-caption p{
+      width: 100%;
+      font-size: 18px;
+      line-height: 1.9;
+      text-align: left;
+}
+
+.navbar-light .nav-item .nav-link{
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 16px;
+}
+  
+.navbar-light .nav-item .nav-link:hover{
+      color: rgb(255, 119, 22);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { ... }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
